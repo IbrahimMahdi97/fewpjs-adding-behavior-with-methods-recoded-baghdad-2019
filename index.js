@@ -30,7 +30,7 @@ class Bird {
             return `It's me! ${this.name}, the parrot!`;
         }
         else {
-            return `Squawk!`;
+            return `${this.name} says squawk!`
         }
     }
 
